@@ -1,0 +1,209 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
+  background-color: #fee2b3;
+}
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --maincolor: rgb(255, 82, 0);
+}
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+  .PopularFoods {
+    flex: column;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/***************************** end some rules *********************/
+/*    start navbar         */
+.navbar-light .navbar-brand,
+.offcanvas-title,
+.dropdown-item:hover {
+  color: var(--maincolor);
+}
+
+.navbar-light .navbar-brand{
+  font-weight: bold;
+  font-size: 25px;
+}
+.btn-outline-success {
+  color: var(--maincolor);
+  border-color: var(--maincolor);
+  margin-top: 10px;
+}
+.btn-outline-success:hover {
+  background-color: var(--maincolor);
+}
+.btn-outline-success a{
+  text-decoration: none;
+  color:var(--maincolor);
+}
+.btn-outline-success a:hover  {
+  color: white;
+}
+/********************************    start intro of page      *********************/
+.intro {
+  background-image: url("https://preview.colorlib.com/theme/meal2/images/xhero_bg.jpg.pagespeed.ic.08xBTGP0Gm.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  min-height: 700px;
+  width: auto;
+  position: relative;
+  transition: all 2s ease-in-out;
+}
+.intro::before{
+    background-color: black;
+    position: absolute;
+    content: "";
+    opacity: 0.5;
+    top:0; 
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+}
+.intro_main{
+    position: relative;
+    z-index: 2;
+    min-height: 678px;
+}
+.intro .some_words {
+  padding-top: 50px;
+  color: white;
+  font-weight: bold;
+}
+.intro .some_words h6 {
+  font-style: italic;
+  font-size: 25px;
+}
+.intro .some_words h2 {
+  margin-top: 20px;
+  font-size: 50px;
+  font: weight 300px;;
+}
+.intro .some_words a {
+  text-decoration: none;
+}
+.intro .some_words span {
+  font-size: 25px;
+  display: block;
+  margin-bottom: 40px;
+}
+.intro .some_words button {
+  padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 30px;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+    background-color: var(--maincolor);
+    color: white
+}
+.intro .social {
+  position: absolute;
+  bottom:20px;
+  right: 20px;
+}
+.intro .social i {
+  margin-left: 15px;
+}
+/***************************** OUR DISHES SECTION **********************************************/
+.ourdishes {
+  margin-top: 50px;
+}
+.PopularFoods {
+  margin-top: 50px;
+}
+.PopularFoods .price {
+  color: orangered;
+}
+.PopularFoods .f_card,
+.PopularFoods .s_card  ,.PopularFoods .th_card{
+  margin-bottom: 10px;
+}
+/*************************** end fevourite foods ***************/
+/********** start our event section *********/
+.ourevent {
+  margin-top: 50px;
+}
+.ourevent .event_details .words_details {
+  margin-top: 80px;
+}
+.ourevent .event_details img {
+  height: 350px;
+}
+/******************************* end our events ******************************/
+.booking {
+  margin-top: 50px;
+  background-image: url("https://preview.colorlib.com/theme/meal2/images/xhero_bg_2.jpg.pagespeed.ic._RWbA_MDF0.webp");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+}
+.booking::before {
+  background: rgba(245, 201, 126, 0.9);
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+}
+.booking .booking_content {
+  padding: 50px;
+  position: relative;
+  z-index: 2;
+}
+/****************************************************************************/
+/***************************** start footer *********************************/
+.Links_page{
+    margin:50px auto;
+}
+footer{
+    background-color: #645f56;
+}
+.Links_page h5{
+    margin-bottom: 20px;
+}
+.Links_page ul li{
+    margin-bottom:10px;
+    
+}
+.Links_page ul li a{
+    color: #bdbdbd;
+    text-decoration: none;
+}

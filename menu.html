@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
+    <!-- font family -->
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <title> Menu </title>
+    <script src="jsfiles/html5shiv.min.js"></script>
+    <script src="jsfiles/respond.min.js"></script>
+</head>
+<body>
+    <!--  ***********************   start navbar   ***************************************-->
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand hvr-skew" href="#">On The LIne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title hvr-skew" id="offcanvasNavbarLabel">Menu Bar</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="main.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-skew" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item hvr-skew" href="#">Menu One</a></li>
+                                <li><a class="dropdown-item hvr-skew" href="#">Menu Two</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success " type="submit">
+                            <a href="booking.html">  Book A Table </a>
+                          </button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+<!------------------------------- End Of Nav Bar ------------------------------------------>
+<section class="intro">
+    <div class="container intro_main">
+        <div class="some_words text-center">
+            <h2> WELCOME TO <span> MENU</span> </h2>
+            <span>
+                Another free template by
+                <a style="color: rgb(255, 82, 0)">On The Line</a> Far far away,
+                behind the word <br />
+                mountains, far from the countries Vokalia and Consonantia,<br />
+                there live the blind texts.
+            </span>
+           
+        </div> <!-- end of some words -->
+        <div class="social text-center">
+            <i class="fab fa-facebook fa-2x" data-aos="fade-left" style="color: orangered;"></i>
+            <i class="fab fa-twitter fa-2x" data-aos="fade-left" style="color: orangered;"></i>
+            <i class="fab fa-instagram fa-2x" data-aos="fade-left" style="color: orangered;"></i>
+            <i class="fab fa-whatsapp fa-2x " data-aos="fade-left" style="color: orangered;"></i>
+        </div>
+    </div> <!-- end container -->
+</section>
+
+<!------------------------------------ End Of Intro Section ---------------------------------------->    
+<section class="all_menu">
+
+    <div class="container">
+<div class="all_menu_words">
+<h2 style="color: orangered;">All Menu </h2>
+<h5 style="color: rgba(0, 0, 0, 0.5)">Making a reservation at <span style="color:orangered; font-weight: bold;" >Délicious</span>  restaurant is easy and<br> takes just a couple of minutes.</h5>
+ </div> <!-- end all menu words -->
+ <div class="row">
+<div class="col-lg-12 categories">
+    <ul id="icons_cat">
+        <li><button class="btn btn-danger" id="butbreakfast" data-tec="breakfast">BREAK FAST</button></li>
+        <li><button class="btn btn-success" id="butlaunch" data-tec="launch">LAUNCH</button></li>
+        <li><button class="btn btn-primary" id="butdinner" data-tec="dinner">DINNER</button></li>
+        <li><button class="btn btn-dark" id="allcategories" >ALL Categories</button></li>
+    </ul>
+    <hr style="color: orangered; height: 2px;">
+    <!-- ********************* start image categories ************************** -->
+<div class="image_categoris">
+    <div class="container">
+
+
+        <div class="row launch">
+            <!--second row -->
+
+            <div class="col-lg-3 col-md-6 col-sm-12 f_card  " >
+                <div class="card " >
+                    <img src="https://media.istockphoto.com/photos/the-folded-breakfast-tortilla-with-scrambled-eggs-bacon-tomato-and-picture-id1299661454?b=1&k=20&m=1299661454&s=170667a&w=0&h=_C-_Q_LNrLvoW4E_xkGwm5g3VnYRO3s_9aZkKpcr3Co="
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center" style="font-style: italic;">Salted Fried Chicken</p>
+                        <p class="price text-center">20$</p>
+                        <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                    </div>
+                </div>
+
+            </div> <!-- first card-->
+
+            <div class="col-lg-3 col-md-6 col-sm-12 s_card " >
+                <div class="card" >
+                    <img src="https://media.istockphoto.com/photos/shrimp-and-beef-skewers-picture-id182409111?b=1&k=20&m=182409111&s=170667a&w=0&h=1YDYXzbktY1i0exs3qwAfvG-AEI19HWU4_Ded_tiNjA="
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                        <p class="price text-center">17$</p>
+                       <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                    </div>
+                </div>
+            </div>
+            <!--second card-->
+
+            <div class="col-lg-3 col-md-6 col-sm-12 th_card" >
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGRpbm5lcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                        <p class="price text-center">24$</p>
+                        <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                    </div>
+                </div>
+            </div>
+            <!--third card-->
+
+            <div class="col-lg-3 col-md-6 col-sm-12 th_card" >
+                <div class="card">
+                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8bHVuY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                        <p class="price text-center">24$</p>
+                        <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                    </div>
+                </div>
+            </div><!--end fourth card-->
+
+
+        </div>
+      
+        
+                     <!-- break fast category-->
+
+
+
+                     <div class="row dinner">
+                        <!--second row -->
+            
+                        <div class="col-lg-3 col-md-6 col-sm-12 f_card  " >
+                            <div class="card " >
+                                <img src="https://images.unsplash.com/photo-1512058564366-18510be2db19?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fGRpbm5lcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center" style="font-style: italic;">Salted Fried Chicken</p>
+                                    <p class="price text-center">20$</p>
+                                    <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                </div>
+                            </div>
+            
+                        </div> <!-- first card-->
+            
+                        <div class="col-lg-3 col-md-6 col-sm-12 s_card " >
+                            <div class="card" >
+                                <img src="https://media.istockphoto.com/photos/beef-steak-grill-beef-steak-black-lentils-mixed-with-vegetable-cognac-picture-id882125314?b=1&k=20&m=882125314&s=170667a&w=0&h=0WXE_22LqV5HuDCjn8Y52Zjd_vZQ7iYTbG-ut0UaOLs="
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                                    <p class="price text-center">17$</p>
+                                    <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                </div>
+                            </div>
+                        </div>
+                        <!--second card-->
+            
+                        <div class="col-lg-3 col-md-6 col-sm-12 th_card" >
+                            <div class="card">
+                                <img src="https://media.istockphoto.com/photos/shrimp-and-beef-skewers-picture-id182409111?b=1&k=20&m=182409111&s=170667a&w=0&h=1YDYXzbktY1i0exs3qwAfvG-AEI19HWU4_Ded_tiNjA="
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                                    <p class="price text-center">24$</p>
+                                    <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                </div>
+                            </div>
+                        </div>
+                        <!--third card-->
+            
+                        <div class="col-lg-3 col-md-6 col-sm-12 th_card" >
+                            <div class="card">
+                                <img src="https://images.unsplash.com/photo-1544025162-d76694265947?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGRpbm5lcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                                    <p class="price text-center">24$</p>
+                                    <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                </div>
+                            </div>
+                        </div><!--end fourth card-->
+            
+            
+                    </div>
+                  
+                    
+                                 <!--  launch category-->
+            
+
+
+
+                                 <div class="row breakfast">
+                                    <!--second row -->
+                        
+                                    <div class="col-lg-3 col-md-6 col-sm-12 f_card  " >
+                                        <div class="card " >
+                                            <img src="https://media.istockphoto.com/photos/the-folded-breakfast-tortilla-with-scrambled-eggs-bacon-tomato-and-picture-id1299661454?b=1&k=20&m=1299661454&s=170667a&w=0&h=_C-_Q_LNrLvoW4E_xkGwm5g3VnYRO3s_9aZkKpcr3Co="
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-text text-center" style="font-style: italic;">Salted Fried Chicken</p>
+                                                <p class="price text-center">20$</p>
+                                                <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                            </div>
+                                        </div>
+                        
+                                    </div> <!-- first card-->
+                        
+                                    <div class="col-lg-3 col-md-6 col-sm-12 s_card " >
+                                        <div class="card" >
+                                            <img src="https://media.istockphoto.com/photos/sausage-and-egg-breakfast-burrito-picture-id1303481589?b=1&k=20&m=1303481589&s=170667a&w=0&h=qOuCRxV7QjXdTNcJC_xF1oPvDARWQI6ayI3L3qcenc0="
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                                                <p class="price text-center">17$</p>
+                                                <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--second card-->
+                        
+                                    <div class="col-lg-3 col-md-6 col-sm-12 th_card" >
+                                        <div class="card">
+                                            <img src="https://media.istockphoto.com/photos/morning-breakfast-table-top-view-picture-id1287809109?b=1&k=20&m=1287809109&s=170667a&w=0&h=b0Zypy93tWhixawHa2cOnHra4RhFpvBehKe-AI8PwoY="
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                                                <p class="price text-center">24$</p>
+                                                <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--third card-->
+                        
+                                    <div class="col-lg-3 col-md-6 col-sm-12 th_card" >
+                                        <div class="card">
+                                            <img src="https://media.istockphoto.com/photos/breakfast-with-bacon-eggs-pancakes-and-toast-picture-id533645537?b=1&k=20&m=533645537&s=170667a&w=0&h=soL3LM7t-t35nDjG62WvPBWvo7Eyw0mO9GEnthc8B4w="
+                                                class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                                <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                                                <p class="price text-center">24$</p>
+                                                <p class="card-text text-center"> <button class="btn btn-outline-success">order now</button></p>
+                   
+                                            </div>
+                                        </div>
+                                    </div><!--end fourth card-->
+                        
+                        
+                                </div>
+                              
+                                
+                                             <!-- dinner category-->
+                        
+
+
+    </div> <!-- end container-->
+</div> <!--end image categories-->
+
+</div>
+ </div>
+    </div>
+</section>
+
+<footer>
+    <div class="text-center p-3" style=" background-color:rgb(0 0 0 / 96%);">
+        
+        <a class="text-white"  style="text-decoration: none;">© 2021 Copyright: Designed By <span style="color: orangered;">NOUR EL DEN</span></a>
+      </div>
+</footer>
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="script/menu.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+   
+</body>
+</html>

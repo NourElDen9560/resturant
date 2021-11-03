@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" />
+    <!-- font family -->
+    <link rel="stylesheet" href="css/hover.css" />
+    <link rel="stylesheet" href="css/resturant.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200&family=Nunito:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
+
+    <title>ON The LIne Resturant</title>
+    <script src="jsfiles/html5shiv.min.js"></script>
+    <script src="jsfiles/respond.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-light bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand hvr-skew" href="#">On The LIne</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+                aria-controls="offcanvasNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title hvr-skew" id="offcanvasNavbarLabel">Menu Bar</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hvr-skew" href="contact.html">Contact Us</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Menu
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                                <li><a class="dropdown-item " href="menu.html">Menu One</a></li>
+                                <li><a class="dropdown-item " href="menu.html">Menu Two</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <button class="btn btn-outline-success " type="submit">
+                            <a href="booking.html" >  Book A Table </a>
+                          </button> 
+                    </form>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!------------------------------- End Of Nav Bar ------------------------------------------>
+    <section class="intro">
+        <div class="container intro_main">
+            <div class="some_words text-center">
+                <h6 class="animate__animated animate__heartBeat animate__repeat-3">ENJOY YOUR HEALTHY DELICIOUS MEAL
+                </h6>
+                <h2>Treat YourSelf</h2>
+                <span>
+                    Another free template by
+                    <a style="color: rgb(255, 82, 0)">On The Line</a> Far far away,
+                    behind the word <br />
+                    mountains, far from the countries Vokalia and Consonantia,<br />
+                    there live the blind texts.
+                </span>
+                <button class="btn btn-outline-success">Explore Now </button>
+            </div> <!-- end of some words -->
+            <div class="social text-center">
+                <i class="fab fa-facebook fa-2x" data-aos="fade-left" style="color: orangered;"></i>
+                <i class="fab fa-twitter fa-2x" data-aos="fade-left" style="color: orangered;"></i>
+                <i class="fab fa-instagram fa-2x" data-aos="fade-left" style="color: orangered;"></i>
+                <i class="fab fa-whatsapp fa-2x " data-aos="fade-left" style="color: orangered;"></i>
+            </div>
+        </div> <!-- end container -->
+    </section>
+
+    <!------------------------------------ End Of Intro Section ---------------------------------------->
+    <!-- Start Our Dishes -->
+
+    <section class="ourdishes">
+        <div class="container ">
+
+            <div class="row" data-aos="fade-left">
+                <!-- first row -->
+                <div class="col-lg-12 text-center ">
+                    <h5 style="color:rgba(0, 0, 0, 0.5);">SELECT YOUR MEAL</h5>
+                    <h2>Popular <span style="color: orangered;">Foods</span></h2>
+                </div>
+            </div>
+
+
+            <div class="row PopularFoods">
+                <!--second row -->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 f_card  " data-aos="fade-left">
+                    <div class="card " >
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2.jpg.pagespeed.ic.55LLOE9kW3.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Salted Fried Chicken</p>
+                            <p class="price text-center">20$</p>
+                        </div>
+                    </div>
+
+                </div> <!-- first card-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 s_card " data-aos="fade-left">
+                    <div class="card" >
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_1.jpg.pagespeed.ic.VpbnsnaQH0.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                            <p class="price text-center">17$</p>
+                        </div>
+                    </div>
+                </div>
+                <!--second card-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 th_card" data-aos="fade-left">
+                    <div class="card">
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2_b.jpg.pagespeed.ic.cc_QObtz2m.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                            <p class="price text-center">24$</p>
+                        </div>
+                    </div>
+                </div>
+                <!--third card-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 th_card" data-aos="fade-left">
+                    <div class="card">
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2_b.jpg.pagespeed.ic.cc_QObtz2m.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                            <p class="price text-center">24$</p>
+                        </div>
+                    </div>
+                </div><!--end fourth card-->
+
+
+            </div>
+            <!--**************************** end  frist row foods ***********************************-->
+
+
+            <div class="row PopularFoods">
+                <!--second row  popular food-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 f_card  " data-aos="fade-down-right">
+                    <div class="card " >
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2.jpg.pagespeed.ic.55LLOE9kW3.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Salted Fried Chicken</p>
+                            <p class="price text-center">20$</p>
+                        </div>
+                    </div>
+                </div> <!-- first card-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 s_card " data-aos="fade-down-right">
+                    <div class="card" >
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_1.jpg.pagespeed.ic.VpbnsnaQH0.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                            <p class="price text-center">17$</p>
+                        </div>
+                    </div>
+                </div>
+                <!--second card-->
+
+                <div class="col-lg-3 col-md-6 col-sm-12 th_card" data-aos="fade-down-right">
+                    <div class="card" >
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2_b.jpg.pagespeed.ic.cc_QObtz2m.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                            <p class="price text-center">24$</p>
+                        </div>
+                    </div>
+                </div>
+                <!--third card-->
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12 th_card" data-aos="fade-down-right">
+                    <div class="card">
+                        <img src="https://preview.colorlib.com/theme/meal2/images/ximg_2_b.jpg.pagespeed.ic.cc_QObtz2m.webp"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <p class="card-text text-center" style="font-style: italic;">Italian Sauce Mushroom</p>
+                            <p class="price text-center">24$</p>
+                        </div>
+                    </div>
+                </div>
+                <!--third card-->
+
+
+
+
+
+            </div>
+            <!--**************************** end  frist row foods ***********************************-->
+        </div>
+        <!--end container -->
+
+    </section>
+    <!--                                   end section  foods                 -->
+
+    <section class="ourevent">
+        <div class="container ">
+
+            <div class="row" data-aos="fade-left">
+                <!-- first row -->
+                <div class="col-lg-12 text-center ">
+                    <h5 style="color:rgba(0, 0, 0, 0.5);">Events</h5>
+                    <h2>Enjoy <span style="color: orangered;">Our Events</span></h2>
+                    <span>Far far away, behind the word mountains, far from the countries Vokalia and<br> Consonantia, there live the blind texts.</span>
+                </div>
+            </div>
+
+<div class="row event_details">
+
+    <div class="col-lg-6 col-md-12 col-sm-12 words_details" data-aos="fade-down-right">
+<h4 style="color: orangered;">$200.99</h4>
+<h5>Guest Chef Nihgt Party</h5>
+<p>Far far away, behind the word mountains, far from the countries<br> Vokalia and Consonantia, there live the blind texts.<br> Separated they live in Bookmarksgrove right at the coast of<br> the Semantics, a large language ocean.</p>
+<P><i class="fas fa-check" style="color: orangered;"></i> <span>Away behind the word</span></P>
+<p><i class="fas fa-check" style="color: orangered;"></i> <span>Bookmarksgrove right at the coast</span></p>
+<p><i class="fas fa-check" style="color: orangered;"></i> <span>Separated they live</span></p>
+    </div>  <!--end words_details -->
+    <div class="col-lg-6 col-md-12 col-sm-12 words_details image" data-aos="fade-left">
+
+        <img src="https://preview.colorlib.com/theme/meal2/images/xparty_2.jpg.pagespeed.ic.VGd3fPR10T.webp">
+    </div>
+    
+    
+</div> <!--end row -->
+
+
+
+
+    </section>
+
+                                   <!--end section our event -->
+<section class="booking">
+    <div class="container">
+        <div class="booking_content text-center">
+                <h6 style="color:rgba(0, 0, 0, 0.5); font-weight: bold;" >BOOK A TABLE</h6>
+                <h2>Book A Table Now</h2>
+                <p>Far far away, behind the word mountains, far <br> from the countries Vokalia and Consonantia, there live the blind texts.</p>
+            <button class="btn btn-outline-success">Book A Table</button>
+        </div>
+    </div>
+</section>
+
+
+                                 <!-- end section booking -->
+<section class="footer">
+    <!-- Footer -->
+<footer class=" text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+     
+  
+      <!-- Section: Links -->
+      <section class="Links_page">
+        <!--Grid row-->
+        <div class="row">
+         
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Projects</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" >WEB DESIGN</a>
+              </li>
+              <li>
+                <a href="#!" >HTML</a>
+              </li>
+              <li>
+                <a href="#!" >CSS/CSS3</a>
+              </li>
+              <li>
+                <a href="#!">JQUERY</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">SERVICIES</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" > DESIGN</a>
+              </li>
+              <li>
+                <a href="#!" >FRONT END</a>
+              </li>
+              <li>
+                <a href="#!">CODE</a>
+              </li>
+              <li>
+                <a href="#!" >DEVELOPER</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+  
+          <!--Grid column-->
+          <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Contact</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" >ADDRESS</a>
+              </li>
+              <li>
+                <a href="#!" >+201141645398</a>
+              </li>
+              <li>
+                <a href="#!" >+20120717551</a>
+              </li>
+              <li>
+                <a href="#!" >nourelden3143@Gmail.com</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white"  style="text-decoration: none;">Designed By <span style="color: orangered;">NOUR EL DEN</span></a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</section>
+
+
+
+
+
+
+
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="script/resturant.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+</body>
+
+</html>
