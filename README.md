@@ -1,2 +1,2 @@
 # resturant
-this is frontend project 
+Front-End Project 
