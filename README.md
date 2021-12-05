@@ -1,2 +1,2 @@
 # resturant
-Front-End Project 
+Responsive website front end 
